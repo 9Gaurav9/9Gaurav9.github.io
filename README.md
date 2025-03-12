@@ -41,8 +41,6 @@ I have completed several online courses and certifications, including:
 - **Other**: Git, Linux, GitHub, LaTeX
 
 ## Contact
-
-- **Email**: ugaurav@umd.edu
 - **GitHub**: [https://github.com/9Gaurav9](https://github.com/9Gaurav9)
 - **LinkedIn**: [Gaurav Upadhyay](https://www.linkedin.com/in/gaurav-upadhyay-b0ab51122/)
 
