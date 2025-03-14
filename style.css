@@ -127,9 +127,4 @@ footer a:hover {
         padding-left: 0;
         padding-right: 0;
     }
-    .date {
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
 }
