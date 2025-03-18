@@ -72,7 +72,7 @@ ul li {
     margin-bottom: 10px;
 }
 
-.project h3, .experience h3 .education h3 {
+.project h3, .experience h3, .education h3 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
