@@ -61,6 +61,7 @@ main {
 
 .section {
   margin-bottom: 60px;
+  scroll-margin-top: 100px;  /* offset height of fixed header */
 }
 
 .section h2 {
