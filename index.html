@@ -1,221 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav Upadhyay - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Upadhyay - Portfolio</title>
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Hi, I'm Gaurav Upadhyay</h1>
-            <p class="tagline">Robotics | AI | Autonomous Systems</p>
-            <a href="#projects" class="btn-primary">View My Work</a>
-        </div>
-    </header>
-
-    <main>
-        <section class="section" data-aos="fade-up">
-            <h2><i class="fas fa-user"></i> Summary</h2>
-            <p>Robotics student specializing in machine learning, computer vision, and autonomous robotic systems.
-                Experienced in developing intelligent algorithms for navigation, localization, and control systems using Python, 
-                C++, PyTorch, TensorFlow, ROS2, OpenCV, and simulation environments such as Gazebo and Webots.</p>
-        </section>
-
-        <section class="section" id="projects" data-aos="fade-up">
-            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
-            <div class="project">
-                <h3>ROS2 Interactive UR10 Robotic Arm</h3>
-                <p>Developed motion-controlled UR10 arm for precise task execution using ROS2 and MoveIt.</p>
-            </div>
-            <div class="project">
-                <h3>Autonomous Mobile Robot</h3>
-                <p>Designed robot with sensor integration for real-time autonomous navigation using Webots and PPO-based RL.</p>
-            </div>
-        </section>
-
-        <section class="section" data-aos="fade-up">
-            <h2><i class="fas fa-user-graduate"></i> Education</h2>
-            <div class="education">
-                <h3>Masters in Robotics</h3>
-                <p>University of Maryland (2023 - 2025)</p>
-            </div>
-            <div class="education">
-                <h3>B.Tech Mechatronics</h3>
-                <p>Lovely Professional University (2018 - 2022)</p>
-            </div>
-        </section>
-
-        <section class="section" data-aos="fade-up">
-            <h2><i class="fas fa-tools"></i> Skills</h2>
-            <ul>
-                <li>Python, C++, ROS2, TensorFlow, PyTorch, OpenCV</li>
-                <li>Webots, Gazebo, SolidWorks, MATLAB, Git</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Gaurav Upadhyay | <a href="https://github.com/9Gaurav9" target="_blank"><i class="fab fa-github"></i></a> <a href="https://linkedin.com/in/gaurav-upadhyay-b0ab51122" target="_blank"><i class="fab fa-linkedin"></i></a></p>
-    </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
-</body>
-</html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
-    <title>Gaurav Upadhyay - GitHub Resume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!--     <header>
-        <div class="container">
-            <h1>Gaurav Upadhyay</h1>
-            <p>Masters of Engineering, Robotics | University of Maryland</p>
-            <p>Email: ugaurav188@gmail.com | GitHub: <a href="https://github.com/9Gaurav9" target="_blank">GitHub Profile</a> | LinkedIn: <a href="https://www.linkedin.com/in/gaurav-upadhyay-b0ab51122/" target="_blank">LinkedIn Profile</a> | Hugging Face: <a href="https://huggingface.co/ugaurav" target="_blank">HuggingFace Profile</a></p>
-        </div>
-    </header> -->
-    <header class="hero">
-      <div class="container">
-        <h1>Hi, I'm Gaurav Upadhyay</h1>
-        <p class="tagline">Robotics | AI | Autonomous Systems</p>
-        <a href="#projects" class="btn-primary">View My Work</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1>Gaurav<br>Upadhyay</h1>
+      <nav>
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+        </ul>
+      </nav>
+      <div class="contact">
+        <p>Email: ugaurav188@gmail.com</p>
+        <p><a href="https://github.com/9Gaurav9" target="_blank">GitHub</a></p>
+        <p><a href="https://linkedin.com/in/gaurav-upadhyay-b0ab51122/" target="_blank">LinkedIn</a></p>
       </div>
-    </header>
+    </aside>
 
-    <main>
-        <section class="section">
-            <h2>Summary</h2>
-            <p> Robotics student specializing in machine learning, computer vision, and autonomous robotic systems. 
-                Experienced in developing intelligent algorithms for navigation, localization, and control systems using Python, 
-                C++, PyTorch, TensorFlow, ROS2, OpenCV, and simulation environments such as Gazebo and Webots. Proven ability to integrate sensors, 
-                actuators, and kinematic models into autonomous mobile robots, optimizing performance through reinforcement learning and advanced 
-                control methods. Actively involved with Robotics at Maryland, continuously contributing to innovative robotics projects and exploring 
-                new applications in automation and AI-driven systems.</p>
+    <main class="content">
+      <section id="summary" class="section" data-aos="fade-up">
+        <h2>Summary</h2>
+        <p>Robotics student specializing in machine learning, computer vision, and autonomous systems.
+        Experienced in developing algorithms for navigation, localization, and control using Python, C++, PyTorch, TensorFlow, ROS2, OpenCV, Gazebo, and Webots.</p>
+      </section>
 
-        </section>
-        <section class="section">
-            <h2>Personal Projects</h2>
-            <div class="project">
-                <h3>ROS2 Interactive UR10 Robotic Arm Project with Motion Control (Fall 2023)</h3>
-                <ul>
-                    <li>-- Developed a motion-controlled UR10 robotic arm for tasks, utilizing advanced algorithms and visualization tools.</li>
-                    <li>-- Gained expertise in ROS2, motion control, and robotic manipulation.</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Autonomous Mobile Robot (Jan 2024 – May 2024)</h3>
-                <ul>
-                    <li>-- Applied kinematic models and control theory for designing and managing the robot's mechanical system, optimizing its performance.</li>
-                    <li>-- Integrated sensors, actuators, and intelligent algorithms into a mechatronic system, enabling autonomous navigation, object detection, and efficient completion of construction tasks in cluttered environments.</li>
-                </ul>
-            </div>
-            <!-- Add more projects as needed -->
-        </section>
+      <section id="projects" class="section" data-aos="fade-up">
+        <h2>Personal Projects</h2>
+        <div class="project">
+          <h3>ROS2 UR10 Arm</h3>
+          <ul><li>Developed motion-controlled arm using advanced algorithms and ROS2.</li></ul>
+        </div>
+        <div class="project">
+          <h3>Autonomous Mobile Robot</h3>
+          <ul><li>Integrated sensors, actuators, and RL algorithms for cluttered environment navigation.</li></ul>
+        </div>
+      </section>
 
+      <section id="education" class="section" data-aos="fade-up">
+        <h2>Education</h2>
+        <div class="education">
+          <h3>Masters in Robotics</h3><p>University of Maryland | Expected May 2025</p>
+          <h3>B.Tech Mechatronics</h3><p>LPU, India | Aug 2018 - May 2022</p>
+        </div>
+      </section>
 
+      <section id="experience" class="section" data-aos="fade-up">
+        <h2>Experience</h2>
+        <h3>Software Team – Robotics at Maryland</h3>
+        <ul>
+          <li>Boosted accuracy by 30% using ML algorithms in ROS2.</li>
+          <li>Integrated control systems with NVIDIA Jetson Orin Nano.</li>
+        </ul>
+      </section>
 
-        <section class="section">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>Masters of Engineering, Robotics</h3> 
-                <p>University of Maryland, College Park </p>
-                <p class="date">Expected - May 2025</p>
-                <ul>
-                    <p><strong>Courses:</strong> Perception, Path Planning, Machine Learning, Robot Modeling, Autonomous Robotics, Robot Learning</p>
-                </ul>
-                
-            </div>
-            <div class="education">
-                <h3>B. Tech, Mechatronics Engineering</h3> 
-                <p>Lovely Professional University, India</p>
-                <p class="date">Aug 2018 - May 2022</p>
-                <ul>
-                    <p>3.41 GPA</p>
-                    <p><strong>Specialization:</strong> Robotics</p>
-                </ul>
-            </div>
-        </section>
+      <section id="certifications" class="section" data-aos="fade-up">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Deep Learning – Coursera</li>
+          <li>Self-Driving Cars – Coursera</li>
+          <li>CS50 AI with Python – Harvard</li>
+        </ul>
+      </section>
 
-      
-        <section class="section">
-            <h2>Experience</h2>
-            <div class="experience"> 
-                <h3>Software Team – Computer Vision, Robotics at Maryland (Jan 2024 - Present)</h3>
-                <ul>
-                    <li>-- Improved data accuracy by 25% through sensor integration and processing in ROS2.</li>
-                    <li>-- Boosted object detection accuracy by 30% and reduced processing time by 20% using machine learning algorithms within ROS2.</li>
-                    <li>-- Increased AUV robotic autonomy by 40% and reduced errors by 35% through integration of control systems into NVIDIA Jetson Orin Nano.</li>
-                </ul>
-            </div>
-            <!-- Add more experiences as needed -->
-        </section>
+      <section id="publications" class="section" data-aos="fade-up">
+        <h2>Publications</h2>
+        <ul>
+          <li>Construction Helmet Composites – AIP Proceedings</li>
+          <li>Seed Metering Device Optimization – JETIR</li>
+        </ul>
+      </section>
 
-        <section class="section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Deep Learning Specialization – Coursera <i>(Oct 2020)</i> <a href="https://www.coursera.org/account/accomplishments/specialization/HQDYKZTGZE73" target="_blank">Link↗️</a></li>
-                <li>Embedding Sensors and Motors Specialization – Coursera <i>(Sept 2020)</i> <a href="https://www.coursera.org/account/accomplishments/specialization/XWCB67QVE47T" target="_blank">Link↗️</a></li>
-                <li>Self-Driving Cars Specialization – Coursera <i>(Aug 2020)</i> <a href="https://www.coursera.org/account/accomplishments/specialization/77C8EMBHWQHT" target="_blank">Link↗️</a></li>
-                <li>CS50's Introduction to Artificial Intelligence with Python – CS50 <i>(Sept 2024)</i> <a href="https://certificates.cs50.io/7871a270-8ca6-4efd-904a-960b721d8fd7.pdf?size=letter" target="_blank">Link↗️</a> </li>
-                <li>Machine Learning Engineer Learning Path – Google Cloud Skills Boost <i>(Present)</i> <a href="https://www.cloudskillsboost.google/public_profiles/e1fede8f-ebfb-4c26-866f-9ccc585d2d54" target="_blank">Link↗️</a></li>
-            </ul>
-        </section>
+      <section id="skills" class="section" data-aos="fade-up">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python, C++, ROS2, PyTorch, OpenCV, Webots, Gazebo, SolidWorks, MATLAB, Git</li>
+        </ul>
+      </section>
 
-        <section class="section">
-            <h2>Publications</h2>
-            <ul>
-                <li>-- Development and mechanical characterization of construction helmet using natural fibre reinforced polymer composites, <i>AIP Proceedings, Volume 2962, Issue 1, Jan 2024</i> <a href="https://pubs.aip.org/aip/acp/article/2962/1/020038/3253502/Development-and-mechanical-characterization-of" target="_blank">(Link↗️)</a></li>
-                <li>-- Designing, Mathematical modeling, and optimizing the pneumatic seed metering device using Creo/Solid Works/SIMULINK/MATLAB, <i>JETIR, Volume 9, Issue 5, May 2022</i> <a href="https://www.jetir.org/view?paper=JETIR2205A57" target="_blank"> (Link↗️)</a></li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming & Development:</strong> Python, C++, PyTorch, OpenCV, TensorFlow, Linux, Simulink, ROS2 Galactic, Gazebo, Rviz, Raspberry Pi, SolidWorks, MATLAB, MS Suite, AutoCAD, Proteus, Robot C, VEX Robot, Keil uVision, SLAM, Computer Vision, Numpy, Simulink, VLOOKUP, MoveIt, Canva, Blender, LATEX, Git, UML.</li>
-                <li><strong>Hardware & Robotics:</strong> Raspberry Pi, VEX Robot, Robot C, SolidWorks, AutoCAD, MoveIt, SLAM;</li>
-                <li><strong> Laboratory Skills:</strong> CNC, Soldering, Compression Molding.</li>
-                <li><strong> Software & Productivity Tools:</strong> MS Suite, Canva, VLOOKUP</li>
-                <!--                 <li><strong>Languages:</strong> English, Nepali, Hindi</li> -->
-            </ul>
-        </section>
-        <section class="section">
-            <h2>Volunteer Experience</h2>
-            <h3>Academic Tutor, Namaste Community Foundation, Nepal <p>(Jun 2019 - Jul 2019)</p></h3>
-            <ul>
-                <li>Participated in a Community Development Project</li>
-                <li>Aimed at empowering underprivileged students</li>
-                <li>Provided academic assistance during the project duration</li>
-                <li>Educated students on self-development </li>
-                <li>Promoted the importance of cleanliness to the students</li>
-            </ul>
-        </section>
+      <section id="volunteer" class="section" data-aos="fade-up">
+        <h2>Volunteer Experience</h2>
+        <p>Namaste Foundation, Nepal (2019)</p>
+        <ul>
+          <li>Provided academic support and hygiene education to underprivileged students.</li>
+        </ul>
+      </section>
 
-        
-<!--         <section class="section">
-            <h2>Contact</h2>
-            <p>College Park, MD | Phone: 240-791-1703 | <a href="https://huggingface.co/ugaurav" target="_blank">HuggingFace Profile</a></p>
-        </section> -->
+      <footer>
+        <p>&copy; 2025 Gaurav Upadhyay</p>
+      </footer>
     </main>
+  </div>
 
-    <footer>
-        <p>&copy; March 2025 Gaurav Upadhyay</p>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <section class="section" data-aos="fade-up">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
- -->
