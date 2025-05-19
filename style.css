@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  margin-bottom: 60px;
+  scroll-margin-top: 100px;  /* offset height of fixed navbar */
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #0c0c0c;
@@ -59,10 +68,8 @@ main {
   margin: 0 auto;
 }
 
-.section {
-  margin-bottom: 60px;
-  scroll-margin-top: 100px;  /* offset height of fixed header */
-}
+/* offset height of fixed header */
+
 
 .section h2 {
   font-size: 26px;
