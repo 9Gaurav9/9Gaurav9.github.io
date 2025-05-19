@@ -84,6 +84,12 @@ footer {
   color: #888;
   font-size: 14px;
 }
+.tools-used {
+  font-style: italic;
+  color: #00ffff; /* Neon blue, you can change this */
+  font-size: 14px;
+  margin-top: 5px;
+}
 
 /* ===== SKILLS SECTION STYLES ===== */
 
