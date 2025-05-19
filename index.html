@@ -1,114 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
-  <h1><i class="fas fa-robot"></i> Gaurav Upadhyay</h1>
-  <nav>
-    <ul>
-      <li><a href="#summary">Home</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Upadhyay - Portfolio</title>
+  <link rel="stylesheet" href="style_topnav.css" />
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <h1>Gaurav<br>Upadhyay</h1>
-      <nav>
-        <ul>
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#volunteer">Volunteer</a></li>
-        </ul>
-      </nav>
-      <div class="contact">
-        <p>Email: ugaurav188@gmail.com</p>
-        <p><a href="https://github.com/9Gaurav9" target="_blank">GitHub</a></p>
-        <p><a href="https://linkedin.com/in/gaurav-upadhyay-b0ab51122/" target="_blank">LinkedIn</a></p>
+  <header>
+    <h1><i class="fas fa-robot"></i> Gaurav Upadhyay</h1>
+    <nav>
+      <ul>
+        <li><a href="#summary">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="summary" class="section" data-aos="fade-up">
+      <h2>Summary</h2>
+      <p>Robotics student specializing in machine learning, computer vision, and autonomous systems.
+      Experienced in developing algorithms for navigation, localization, and control using Python, C++, PyTorch, TensorFlow, ROS2, OpenCV, Gazebo, and Webots.</p>
+    </section>
+
+    <section id="projects" class="section" data-aos="fade-up">
+      <h2>Personal Projects</h2>
+      <div class="project">
+        <h3>ROS2 UR10 Arm</h3>
+        <ul><li>Developed motion-controlled arm using advanced algorithms and ROS2.</li></ul>
       </div>
-    </aside>
+      <div class="project">
+        <h3>Autonomous Mobile Robot</h3>
+        <ul><li>Integrated sensors, actuators, and RL algorithms for cluttered environment navigation.</li></ul>
+      </div>
+    </section>
 
-    <main class="content">
-      <section id="summary" class="section" data-aos="fade-up">
-        <h2>Summary</h2>
-        <p>Robotics student specializing in machine learning, computer vision, and autonomous systems.
-        Experienced in developing algorithms for navigation, localization, and control using Python, C++, PyTorch, TensorFlow, ROS2, OpenCV, Gazebo, and Webots.</p>
-      </section>
+    <section id="education" class="section" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="education">
+        <h3>Masters in Robotics</h3><p>University of Maryland | Expected May 2025</p>
+        <h3>B.Tech Mechatronics</h3><p>LPU, India | Aug 2018 - May 2022</p>
+      </div>
+    </section>
 
-      <section id="projects" class="section" data-aos="fade-up">
-        <h2>Personal Projects</h2>
-        <div class="project">
-          <h3>ROS2 UR10 Arm</h3>
-          <ul><li>Developed motion-controlled arm using advanced algorithms and ROS2.</li></ul>
-        </div>
-        <div class="project">
-          <h3>Autonomous Mobile Robot</h3>
-          <ul><li>Integrated sensors, actuators, and RL algorithms for cluttered environment navigation.</li></ul>
-        </div>
-      </section>
+    <section id="experience" class="section" data-aos="fade-up">
+      <h2>Experience</h2>
+      <h3>Software Team – Robotics at Maryland</h3>
+      <ul>
+        <li>Boosted accuracy by 30% using ML algorithms in ROS2.</li>
+        <li>Integrated control systems with NVIDIA Jetson Orin Nano.</li>
+      </ul>
+    </section>
 
-      <section id="education" class="section" data-aos="fade-up">
-        <h2>Education</h2>
-        <div class="education">
-          <h3>Masters in Robotics</h3><p>University of Maryland | Expected May 2025</p>
-          <h3>B.Tech Mechatronics</h3><p>LPU, India | Aug 2018 - May 2022</p>
-        </div>
-      </section>
+    <section id="certifications" class="section" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Deep Learning – Coursera</li>
+        <li>Self-Driving Cars – Coursera</li>
+        <li>CS50 AI with Python – Harvard</li>
+      </ul>
+    </section>
 
-      <section id="experience" class="section" data-aos="fade-up">
-        <h2>Experience</h2>
-        <h3>Software Team – Robotics at Maryland</h3>
-        <ul>
-          <li>Boosted accuracy by 30% using ML algorithms in ROS2.</li>
-          <li>Integrated control systems with NVIDIA Jetson Orin Nano.</li>
-        </ul>
-      </section>
+    <section id="publications" class="section" data-aos="fade-up">
+      <h2>Publications</h2>
+      <ul>
+        <li>Construction Helmet Composites – AIP Proceedings</li>
+        <li>Seed Metering Device Optimization – JETIR</li>
+      </ul>
+    </section>
 
-      <section id="certifications" class="section" data-aos="fade-up">
-        <h2>Certifications</h2>
-        <ul>
-          <li>Deep Learning – Coursera</li>
-          <li>Self-Driving Cars – Coursera</li>
-          <li>CS50 AI with Python – Harvard</li>
-        </ul>
-      </section>
+    <section id="skills" class="section" data-aos="fade-up">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, C++, ROS2, PyTorch, OpenCV, Webots, Gazebo, SolidWorks, MATLAB, Git</li>
+      </ul>
+    </section>
 
-      <section id="publications" class="section" data-aos="fade-up">
-        <h2>Publications</h2>
-        <ul>
-          <li>Construction Helmet Composites – AIP Proceedings</li>
-          <li>Seed Metering Device Optimization – JETIR</li>
-        </ul>
-      </section>
+    <section id="volunteer" class="section" data-aos="fade-up">
+      <h2>Volunteer Experience</h2>
+      <p>Namaste Foundation, Nepal (2019)</p>
+      <ul>
+        <li>Provided academic support and hygiene education to underprivileged students.</li>
+      </ul>
+    </section>
 
-      <section id="skills" class="section" data-aos="fade-up">
-        <h2>Skills</h2>
-        <ul>
-          <li>Python, C++, ROS2, PyTorch, OpenCV, Webots, Gazebo, SolidWorks, MATLAB, Git</li>
-        </ul>
-      </section>
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email: ugaurav188@gmail.com</p>
+      <p><a href="https://github.com/9Gaurav9" target="_blank">GitHub</a> | 
+         <a href="https://linkedin.com/in/gaurav-upadhyay-b0ab51122/" target="_blank">LinkedIn</a></p>
+    </section>
 
-      <section id="volunteer" class="section" data-aos="fade-up">
-        <h2>Volunteer Experience</h2>
-        <p>Namaste Foundation, Nepal (2019)</p>
-        <ul>
-          <li>Provided academic support and hygiene education to underprivileged students.</li>
-        </ul>
-      </section>
-
-      <footer>
-        <p>&copy; 2025 Gaurav Upadhyay</p>
-      </footer>
-    </main>
-  </div>
+    <footer>
+      <p>&copy; 2025 Gaurav Upadhyay</p>
+    </footer>
+  </main>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
