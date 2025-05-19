@@ -187,3 +187,34 @@ footer {
   }
 }
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-time {
+  font-size: 14px;
+  font-style: italic;
+  color: #ccc;
+  margin-left: 10px;
+}
+
+.project-link i {
+  font-size: 20px;
+  color: #00ffff;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover i {
+  color: #f06292;
+}
+
+.tools-used {
+  font-style: italic;
+  color: #00ffff;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
